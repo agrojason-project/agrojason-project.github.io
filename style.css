@@ -1,0 +1,670 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html, body {
+  height:100%;
+  width:100%;
+  font-family: 'Poppins', sans-serif;
+  color: #222;
+  background-color: #F0F8FF;
+}
+
+
+.navbar {
+  padding: .8rem;
+  color: #66b3ff;
+  width: 100%;
+  
+}
+
+.navbar nav li {
+  padding-right: 20px;
+}
+
+.nav-link {
+  font-size: 1.1em !important;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 75%;
+/*  max-height: 900px;*/
+  
+}
+
+.btn-primary {
+  background-color: #6648b1;
+  border: 1px solid #6648b1;
+  margin-top: 15px;
+  font-size: 20px;
+}
+.btn-primary hover: {
+  background-color: #563d7c;
+  border: 1px solid #563d7c;
+}
+
+.jumbotron {
+  padding: 1rem;
+  border-radius: 0;
+}
+
+.padding {
+  padding-bottom: 2rem;
+}
+
+.index-img {
+  padding-top: 3rem;
+}
+
+#index-subtitle {
+  padding-bottom: 2%;
+}
+.welcome {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 2rem;
+  display: block;
+
+}
+
+.welcome hr {
+  border-top: 2px solid #b4b4b4;
+  width: 95%;
+  margin-top: .3rem;
+  margin-bottom: 1rem;
+}
+
+.social a{
+  font-size: 4.5em;
+  padding: 3rem;
+}
+.fa-facebook {
+  color: #3b5998;
+}
+
+.fa-instagram {
+  color: #517fa4;
+
+}
+.fa-youtube {
+  color: #bb0000;
+}
+
+.fa-facebook:hover,
+.fa-instagram:hover, 
+.fa-youtube:hover {
+  color: #d5d5d5;
+}
+
+footer {
+  background-color: #3f3f3f;
+  color: #d5d5d5;
+  padding-top: 2rem;
+  /*padding-left: 2rem;*/
+  position: absolute;
+  width: 100%;
+  display: flex;
+  
+}
+
+footer a:hover {
+  text-decoration: none;
+}
+
+footer a {
+  color: #d5d5d5;
+}
+
+.footer-img-col  {
+  /*display: inline-block;*/
+ /* padding:0 auto;*/
+
+
+}
+.footer-img-row {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;   
+}
+
+/*classes for the vertical lines*/
+hr.light {
+  border-top: 1px solid #d5d5d5;
+  width: 75%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+}
+
+
+hr.light-100 {
+  border-top: 1px solid #d5d5d5;
+  width: 100%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+
+}
+
+/* Cards */
+.card{
+  border: 1px #778899;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  /*background-color: #87adfa;*/
+}
+.card-body {
+  background-color: #87CEFA;
+  min-height: 200px;
+
+}
+.card-body h5 {
+  color:#00588b
+}
+
+.card-body h4 {
+  font-weight: bold;
+}
+
+
+/*******************Sponsors***********/
+
+.sponsor{
+  border-radius: calc(.25rem - 1px);
+  border: 1px solid gray;
+  background-color: white;
+  position: relative;
+  display: block;
+  display:flex;
+  align-items:stretch;
+}
+.sponsor:hover{
+  transform: scale(1.02);
+}
+
+}
+/*.sponsor-title {
+  color:#696969;;
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+}
+*/
+#gold, #platinum, #bronze {
+	margin-top: 20px;
+	margin-bottom: 40px;
+	font-size: 36px;
+}
+
+#gold {
+	color:#DAA520;
+}
+
+#platinum {
+	color: #c1beba;
+}
+
+.platinum-dim {
+  /*width: 85%;
+  height: 75%;*/
+  display: block;
+  align-items: center;
+}
+
+.bronze-dim {
+ /* width:55% ;
+  height:80%;*/
+  display:inline-block;
+}
+#bronze {
+	color: #cd7f32;
+}
+
+
+/* Contact page */
+.map h3 {
+  text-align: center;
+  color: #696969;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+.map iframe {
+  width: 100%;
+  align-items: center;
+  position: relative;
+  
+}
+.address-container {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.address-div {
+  display: block;
+  padding-bottom: 15px;
+ }
+/*for the location and the email icons*/
+.address-div img {
+  margin: 10px;
+  padding: 10px;
+  transition: margin 300ms;
+  width: 60px;
+  height: auto;
+}
+/* for the location and the email icons*/
+.address-div img:hover {
+  margin-left: 15px;
+}
+
+.address-div h5 {
+  color: #008B8B;
+}
+
+header {
+  background-color: #20B2AA;
+}
+
+
+#sponsor_contact link:hover{
+  color:#c2d6d6;
+  text-decoration: none;
+}
+
+#sponsor_contact link{
+  color: #ffffff;
+}
+
+#sponsor_contact:visited{
+    color:#ff6666;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#carouselInd {
+	color: grey;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.about-text {
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 2%;
+	font-size: 20%;
+}
+
+.about-text h4 {
+	font-family: 'Poppins', sans-serif;
+}
+.text-padding {
+	padding-bottom: 50px;
+}
+
+.img-container {
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+
+.about-carousel {
+  display: block;
+
+}
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.progress-container {
+  width: 100%; 
+  position: relative;
+}
+.progress-container h4{
+  font-size: 40px;
+  padding-left: 1%;
+}
+
+.progress-container p {
+  font-size: 20px;
+  padding-left: 1%;
+}
+/*progress page white box behind text*/
+.box {
+  background-color: white;
+}
+.progress-container .row{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+/*class to make the images change when user drags pointer on them */
+.myImg {
+    cursor: pointer;
+    transition: 0.3s;
+}
+.myImg:hover{ 
+  opacity: 0.7;
+}
+
+.progress-bar {
+  height: 8px;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  width: 0%;
+}
+.container img {
+	width: 100%;
+}
+
+.progress-text {
+	font-family: 'Poppins', sans-serif;
+	font-size: 40px;
+	color: white;
+	margin-top: 40px;
+	padding-bottom: 10px;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/*To center the images */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.border {
+  width: 50%;
+  border-bottom: 1px solid #d2282e;
+  margin: 0 auto;
+  height: 5px;
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+.list-group {
+	width: 35%;
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	margin-bottom: 40px;
+	margin-left: 33%;
+	margin-top: 5%;
+	position: relative;
+	display: block;
+}
+
+
+.list-group h4 {
+	font-size: 30px;
+}
+.list-text {
+	margin-top: 5%; /* The same margin-top as list-group */
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+@media (max-width: 992px) { 
+  .social a {
+    font-size: 4rem;
+    padding:2rem;
+  }
+
+ }
+
+@media (max-width: 768px) { 
+  .carousel-caption {
+    top:45%;
+  }
+
+  .carousel-caption h1 {
+    font-size: 350%;
+  }
+
+  .carousel-caption h3 {
+    font-size: 140%;
+    font-weight: 400;
+    padding-bottom: .2rem;
+  }
+
+  .carousel-caption .btn {
+    font-size: 95%;
+    padding: 8px 14px;
+  }
+
+  .display-4 {
+    font-size: 200%;
+  }
+
+  .social a {
+    font-size: 2.5rem;
+    padding:1.2rem;
+  }
+  .progress-container h1 {
+	font-size: 30px;
+
+  } 
+ .progress-container h4 {
+ 	padding-left: 1%;
+ 	font-size: 20px;
+ }
+ .progress-container p{
+ 	padding-left: 1%;
+ 	font-size: 20px;
+ }
+ .progress-text {
+	font-family: 'Poppins', sans-serif;
+	font-size: 3wel0px;
+	color: white;
+	margin-top: 40px;
+	padding-bottom: 10px;
+}
+
+
+ }
+
+@media (max-width: 576px) {
+  .carousel-caption {
+    top:40%;
+  }
+
+  .carousel-caption h1 {
+    font-size: 250%;
+  }
+
+  .carousel-caption h3 {
+    font-size: 110%;
+    font-weight: 400;
+    padding-bottom: .2rem;
+  }
+
+  .carousel-caption .btn {
+    font-size: 90%;
+    padding: 4px 8px;
+  }
+
+  .carousel-indicators {
+    display: none;
+    
+  }
+  .display-4 {
+    font-size: 160%;
+  }
+
+  .social a {
+    font-size: 2rem;
+    padding:.7rem;
+  }
+
+  .column {
+    width: 100%;
+  }
+
+
+.progress-container h1 {
+	font-size: 25px;
+
+  } 
+ .progress-container h4 {
+ 	padding-left: 1%;
+ 	font-size: 25px;
+ }
+ .progress-container p{
+ 	padding-left: 1%;
+ 	font-size: 20px;
+ }
+.progress-text {
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+	color: white;
+	margin-top: 40px;
+	padding-bottom: 10px;
+}
+.border {
+  width: 50%;
+  border-bottom: 1px solid #d2282e;
+  margin: 0 auto;
+  height: 3px;
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+
+}
+
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+
+}
+/*--- Fixed Background Image --*/
+/*figure {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  margin: 0!important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#fixed {
+  background-image: url('img/mac.png');
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
+
+
+
+*/
+
+
+
+
+
+
+
+
