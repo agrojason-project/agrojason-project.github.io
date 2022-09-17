@@ -1,5 +1,5 @@
 # AgrojasonWebsite
-[agrojason-project.github.io](https://agrojason-project.github.io/)
+[agrojason.eu](https://agrojason.eu/)
 
 
 This is a website built for the Agrojason Project of the IEEE SB Volos.
